@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadContent</key>
+            <dict>
+                <key>com.apple.dock</key>
+                <dict>
+                    <key>Forced</key>
+                    <array>
+                        <dict>
+                            <key>mcx_preference_settings</key>
+                            <dict>
+                                <key>static-apps</key>
+                                <array>
+                                    <dict>
+                                        <key>mcx_typehint</key>
+                                        <integer>1</integer>
+                                        <key>tile-data</key>
+                                        <dict>
+                                            <key>file-data</key>
+                                            <dict>
+                                                <key>_CFURLString</key>
+                                                <string>/Applications/Self Service.app</string>
+                                                <key>_CFURLStringType</key>
+                                                <integer>0</integer>
+                                            </dict>
+                                            <key>file-label</key>
+                                            <string>Self Service</string>
+                                        </dict>
+                                        <key>tile-type</key>
+                                        <string>file-tile</string>
+                                    </dict>
+                                </array>
+                            </dict>
+                        </dict>
+                    </array>
+                </dict>
+            </dict>
+            <key>PayloadDescription</key>
+            <string></string>
+            <key>PayloadDisplayName</key>
+            <string>Custom</string>
+            <key>PayloadEnabled</key>
+            <true/>
+            <key>PayloadType</key>
+            <string>com.apple.ManagedClient.preferences</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string></string>
+    <key>PayloadDisplayName</key>
+    <string>Self Service Settings</string>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
